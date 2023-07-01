@@ -52,4 +52,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+/* text-colors */
+--primary-txt-cl:#141414;
+--secondary-txt-cl: #FFFFFF;
+--title-txt-cl: #EAF7E5;
+--accent-txt-cl: #FC8A11;
+/* bg-colors */
+--primary-bg-cl:#A1C487;
+--secondary-bg-cl:#FAF3E7;
+--accent-bg-cl: #FC8A11;
+--card-bg-cl:#EAF7E5;
+--icon-bg-cl:#141414;
 }
