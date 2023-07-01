@@ -13,6 +13,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('DM Sans Regular'), url('DMSans-Regular.woff') format('woff');
+  src: url(../fons/DMSans-Regular.woff);
 }
 
 @font-face {
@@ -20,6 +21,7 @@
   font-style: normal;
   font-weight: 500;
   src: local('DM Sans Medium'), url('DMSans-Medium.woff') format('woff');
+  src: url(../fons/DMSans-Medium.woff);
 }
 
 
@@ -28,6 +30,7 @@
   font-style: normal;
   font-weight: 500;
   src: local('DM Sans Medium Italic'), url('DMSans-MediumItalic.woff') format('woff');
+  src: url(../fons/DMSans-MediumItalic.woff);
 }
 
 
@@ -36,6 +39,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('DM Sans Bold'), url('DMSans-Bold.woff') format('woff');
+  src: url(../fons/DMSans-Bold.woff);
 }
 
 :root {
