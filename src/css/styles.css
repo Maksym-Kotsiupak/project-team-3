@@ -1,3 +1,4 @@
+@import url(./modern-normalize.css);
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -5,6 +6,37 @@
 @import url('./vegetables.css');
 @import url('./we_will_call_you.css');
 @import url('./your-order.css');
+
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('DM Sans Regular'), url('DMSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('DM Sans Medium'), url('DMSans-Medium.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'DM Sans Medium Italic';
+  font-style: normal;
+  font-weight: 500;
+  src: local('DM Sans Medium Italic'), url('DMSans-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'DM Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('DM Sans Bold'), url('DMSans-Bold.woff') format('woff');
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

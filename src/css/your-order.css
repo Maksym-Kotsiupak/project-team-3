@@ -62,4 +62,12 @@
     border: none;
     cursor: pointer;
 }
-
+/* kotsupak */
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.backdrop.is-hidden .modal-order {
+    transform: translate(-50%, -50%) scale(1.2);
+}
