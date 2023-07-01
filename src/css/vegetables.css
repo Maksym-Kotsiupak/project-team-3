@@ -1,0 +1,36 @@
+.vegetables {
+}
+.vegetables-container {
+  width: 100%;
+  max-width: 365px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegetables-title {
+  text-align: center;
+}
+.vegetables-text {
+  text-align: center;
+}
+.vegetables-card-list {
+  width: 100%;
+}
+.list {
+}
+.vegetables-card-item {
+}
+.vegetables-card-wrap {
+  background-color: #eaf7e5;
+}
+.vegetables-card-title {
+}
+.vegetables-card-desc {
+}
+.vegetables-card-img {
+}
+.vegetables-card-price {
+}
+.vegetables-btn {
+}
