@@ -68,4 +68,5 @@
 --accent-bg-cl: #FC8A11;
 --card-bg-cl:#EAF7E5;
 --icon-bg-cl:#141414;
+--transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
