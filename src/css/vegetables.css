@@ -6,16 +6,24 @@
 
 .vegetables-container {
   width: 100%;
-  max-width: 335px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .vegetables-title {
   margin-bottom: 14px;
+
+  color: var(--primary-txt-cl);
   text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
 }
 
 .vegetables-text {
@@ -23,7 +31,13 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 335px;
+
+  color: var(--primary-txt-cl);
   text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
 }
 
 .vegetables-card-list {
@@ -54,16 +68,32 @@
 
 .vegetables-card-title {
   margin-bottom: 8px;
+
+  color: var(--primary-txt-cl);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
 }
 
 .vegetables-card-desc {
   margin-bottom: 36px;
+
+  color: var(--primary-txt-cl);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
 }
 .vegetables-card-img {
   margin-bottom: 22px;
 }
 
 .vegetables-card-price {
+  color: var(--primary-txt-cl);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
 }
 
 .vegetables-btn {
@@ -74,9 +104,19 @@
   height: 80px;
   border-radius: 50%;
   border: none;
-  background-color: #fc8a11;
+  background-color: var(--accent-bg-cl);
+
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+
   transform: rotate(-14deg);
-  transition: background-color 250ms linear;
+  transition: background-color var(--transition);
 }
 
 .vegetables-btn:hover,
@@ -92,7 +132,9 @@
   }
 
   .vegetables-container {
-    max-width: 734px;
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .vegetables-text {
