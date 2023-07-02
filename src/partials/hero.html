@@ -2,13 +2,31 @@
   <div class="hero-container">
     <ul class="reviews-list">
       <li class="reviews-item review-one">
-        <img src="./images/rew1.png" alt="review1" width="40" />
+        <img
+          class="review-img"
+          srcset="./img/hero/smal1@1x.png 1x, ./img/hero/smal1@2x.png 2x"
+          src="./img/hero/smal1@1x.png"
+          alt="review1"
+          width="40"
+        />
       </li>
       <li class="reviews-item review-two">
-        <img src="./images/rew2.png" alt="review2" width="40" />
+        <img
+          class="review-img"
+          srcset="./img/hero/smal2@1x.png 1x, ./img/hero/smal2@2x.png 2x"
+          src="./img/hero/smal2@1x.png"
+          alt="review2"
+          width="40"
+        />
       </li>
       <li class="reviews-item review-three">
-        <img src="./images/rew3.png" alt="review3" width="40" />
+        <img
+          class="review-img"
+          srcset="./img/hero/smal3@1x.png 1x, ./img/hero/smal3@2x.png 2x"
+          src="./img/hero/smal3@1x.png"
+          alt="review3"
+          width="40"
+        />
       </li>
       <li class="reviews-item review-four">
         <div class="review-text">
@@ -31,25 +49,47 @@
     <button type="button" class="hero-button">shop now</button>
 
     <picture>
-      <source srcset="1x, 2x" media="(min-width: 1280px)" />
+      <source
+        srcset="
+          ./img/hero/orange-girl-desktop@1x.png 1x,
+          ./img/hero/orange-girl-desktop@2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
 
-      <source srcset="1x, 2x" media="(min-width: 768px)" />
-      <source srcset="1x, 2x" media="(min-width: 320px)" />
-      <img src="" alt="Girl with salad leaves" width="515" />
+      <source
+        srcset="
+          ./img/hero/orange-girl-tablet@1x.png 1x,
+          ./img/hero/orange-girl-tablet@2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/hero/orange-girl-mobile@1x.png 1x,
+          ./img/hero/orange-girl-mobile@2x.png 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img
+        src="./img/hero/orange-girl-desktop@1x.png"
+        alt="Girl with salad leaves"
+        width="515"
+      />
     </picture>
 
     <ul class="hero-tag-list">
       <li class="hero-tag-item">
-        <button type="button" class="hero-tag-button">&sharp;organic</button>
+        <button type="button" class="hero-tag-button">&#35;organic</button>
       </li>
       <li class="hero-tag-item">
-        <button type="button" class="hero-tag-button">&sharp;products</button>
+        <button type="button" class="hero-tag-button">&#35;products</button>
       </li>
       <li class="hero-tag-item">
-        <button type="button" class="hero-tag-button">&sharp;basket</button>
+        <button type="button" class="hero-tag-button">&#35;basket</button>
       </li>
       <li class="hero-tag-item">
-        <button type="button" class="hero-tag-button">&sharp;vegetables</button>
+        <button type="button" class="hero-tag-button">&#35;vegetables</button>
       </li>
     </ul>
   </div>
