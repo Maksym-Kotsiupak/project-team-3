@@ -84,7 +84,9 @@
 
 .hero-veg {
   color: var(--title-txt-cl);
-  font-style: italic;
+  font-family: 'DM Sans Medium Italic';
+    font-style: normal;
+    font-weight: 500;
 }
 
 .hero-text {
