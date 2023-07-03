@@ -1,0 +1,198 @@
+/* ============ Footer mobil ============= */
+/* - container - */
+.footer-section{
+    padding: 80px 20px;
+    background-color: #EAF7E5;
+}
+.container-bloc-left{
+    margin-bottom: 40px;
+}
+.footer-container{
+    margin: 0 auto;
+    max-width: 335px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+.footer-container-img-mobil{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-container-img{
+    display: none;
+}
+/* - /container - */
+/* - logo - */
+.logo-container{
+    
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+
+}
+.footer-logo{
+text-align: center;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.56px;
+    text-transform: uppercase; 
+
+    color: var(--primary-txt-cl);
+}
+/* - /logo - */
+/* - navigation - */
+.footer-nav-list{
+    width: 100%;
+    max-width: 241px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-nav-text{
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.56px;
+
+    color: var(--primary-txt-cl);
+}
+/* - /navigation - */
+/* - soc-icon - */
+.footer-soc-list{
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-soc-last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+border: 1px solid #141414;
+}
+/* - /soc-icon - */
+/* - adress - */
+.container-bloc-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-adres-container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+.footer-tell{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    
+    color: var(--primary-txt-cl);
+}
+.footer-adress{
+    display: block;
+    max-width: 135px;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.28px;
+
+    color: var(--primary-txt-cl);
+}
+/* - /adress - */
+/* ============ /Footer mobil ============= */
+/* ============ Footer media 768px ============= */
+@media screen and (min-width: 768px){
+/* - container - */
+
+    .footer-section{
+        padding: 80px 32px;
+    }
+    .footer-main-container{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        max-width: 704px;
+    }
+    .footer-container{
+        margin: 0;
+        max-width: 349px;
+        
+    } 
+   
+    .footer-container-img-mobil{
+        display: none;
+    }
+    .footer-container-img{
+        display: block;
+        margin-bottom: 20px;
+
+    }
+    
+    .container-bloc-right{
+        max-width: 184px;
+        display: block;
+    }
+/* - /container - */
+/* - soc-icon - */
+    .footer-soc-list{
+        margin-bottom: 42px;
+        justify-content: flex-start;
+    }
+/* - /soc-icon - */
+/* - adress - */
+    .footer-tell{
+        font-size: 18px;
+        line-height: 1.3;
+        text-align: left;
+    }
+    .footer-adress{
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: -0.36px;
+        text-align: left;
+        max-width: 184px;
+    }
+/* - /adress - */
+}
+/* ============ /Footer media 768px ============= */
+/* ============ /Footer media 1280px ============= */
+@media screen and (min-width: 1280px){
+    .footer-main-container{
+        max-width: 1216px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container-bloc-left{
+        margin-right: 166px;
+        max-width: 349px;
+        justify-content: center;
+    }
+    .footer-main{
+        display: flex;
+    }
+    .footer-container{
+        margin-right: 166px;
+    }
+    
+}
