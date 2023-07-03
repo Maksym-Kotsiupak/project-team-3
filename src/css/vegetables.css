@@ -49,12 +49,6 @@
   margin-bottom: 20px;
 }
 
-.list {
-}
-
-.vegetables-card-item {
-}
-
 .vegetables-card-link {
   transition: transform var(--transition);
 }
@@ -98,9 +92,9 @@
 }
 
 .vegetables-card-img {
-}
-
-.vegetables-card-img img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .vegetables-card-price {
@@ -137,6 +131,11 @@
 .vegetables-btn:hover,
 .vegetables-btn:focus {
   background-color: var(--primary-bg-cl);
+}
+
+.vegetables-btn-icon {
+  margin-right: 4px;
+  fill: var(--secondary-txt-cl);
 }
 
 /*!==============TABLET============= */
