@@ -1,5 +1,6 @@
 .call-you-section{
     margin-bottom: 120px; 
+
 }
 .call-you-content {
   width: 100%;
@@ -223,6 +224,8 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     }
   .call-you-content {
     width: 1280px;
