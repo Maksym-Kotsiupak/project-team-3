@@ -1,22 +1,45 @@
-<section class="call-you-section" >
-  <div class="call-you-content" >
-    <h2 class="call-you-title" >Fresh Harvest Box has got you covered</h2>
-    <p class="call-you-text" >
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
-    <form action=""  class="call-you-form"  >
-        <label for="" class="call-you-label" >
-            <input type="tel"
-            name="call-you-input"
-            class="call-you-input"
-            id="call-you-input"
-            pattern=""
-            >
+<section class="call-you-section">
+  <div class="call-you-content">
+    <div class="title-container">
+      <h2 class="call-you-title">Fresh Harvest Box has got you covered</h2>
+      <p class="call-you-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+      <form action="" class="call-you-form">
+        <label for="" class="call-you-label">
+          <div class="input-container">
+            <input
+              type="tel"
+              name="call-you-input"
+              class="call-you-input"
+              id="call-you-input"
+              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              placeholder="+380()"
+            />
+            <input
+              name="commit"
+              type="submit"
+              class="call-you-btn"
+              value="Recall"
+            />
+          </div>
         </label>
-        <button type="submit" >Recall</button>
-    </form>
+        <!-- <button type="submit" class="call-you-btn">Recall</button> -->
+      </form>
+    </div>
+
+    <div class="img-container">
+      <img
+        srcset="
+          ../img/we_will_call_you/green-girl-mobile@1x.png 1x,
+          ../img/we_will_call_you/green-girl-mobile@2x.png 2x
+        "
+        class="call-you-img"
+        src="../img/we_will_call_you/green-girl-mobile@1x.png"
+        alt="girl with broccoli"
+      />
+    </div>
   </div>
-  <div></div>
 </section>
