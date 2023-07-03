@@ -1,101 +1,103 @@
 <section class="hero-section">
   <div class="hero-container">
-    <div class="hero-title-wrap">
-      <ul class="reviews-list">
-        <li class="reviews-item review-one">
-          <img
-            class="review-img"
-            srcset="./img/hero/smal1@1x.png 1x, ./img/hero/smal1@2x.png 2x"
-            src="./img/hero/smal1@1x.png"
-            alt="review1"
-            width="40"
-          />
-        </li>
-        <li class="reviews-item review-two">
-          <img
-            class="review-img"
-            srcset="./img/hero/smal2@1x.png 1x, ./img/hero/smal2@2x.png 2x"
-            src="./img/hero/smal2@1x.png"
-            alt="review2"
-            width="40"
-          />
-        </li>
-        <li class="reviews-item review-three">
-          <img
-            class="review-img"
-            srcset="./img/hero/smal3@1x.png 1x, ./img/hero/smal3@2x.png 2x"
-            src="./img/hero/smal3@1x.png"
-            alt="review3"
-            width="40"
-          />
-        </li>
-        <li class="reviews-item review-four">
-          <div class="review-text">
-            <span class="review-text-world">2k</span>
-            reviews
-          </div>
-        </li>
-      </ul>
+    <div class="flex-hero-wrap">
+      <div class="hero-title-wrap">
+        <ul class="reviews-list">
+          <li class="reviews-item review-one">
+            <img
+              class="review-img"
+              srcset="./img/hero/smal1@1x.png 1x, ./img/hero/smal1@2x.png 2x"
+              src="./img/hero/smal1@1x.png"
+              alt="review1"
+              width="40"
+            />
+          </li>
+          <li class="reviews-item review-two">
+            <img
+              class="review-img"
+              srcset="./img/hero/smal2@1x.png 1x, ./img/hero/smal2@2x.png 2x"
+              src="./img/hero/smal2@1x.png"
+              alt="review2"
+              width="40"
+            />
+          </li>
+          <li class="reviews-item review-three">
+            <img
+              class="review-img"
+              srcset="./img/hero/smal3@1x.png 1x, ./img/hero/smal3@2x.png 2x"
+              src="./img/hero/smal3@1x.png"
+              alt="review3"
+              width="40"
+            />
+          </li>
+          <li class="reviews-item review-four">
+            <div class="review-text">
+              <span class="review-text-world">2k</span>
+              reviews
+            </div>
+          </li>
+        </ul>
 
-      <h1 class="hero-title">
-        Organic <span class="hero-veg">vegetables</span> to your diet today!
-      </h1>
-      <p class="hero-text">
-        Our expertly curated vegetable baskets are made with the freshest,
-        highest quality vegetables available. Fresh Harvest Box has got you
-        covered. Fresh, high-quality vegetables in expertly curated vegetable
-        baskets delivered to you.
-      </p>
+        <h1 class="hero-title">
+          Organic <span class="hero-veg">vegetables</span> to your diet today!
+        </h1>
+        <p class="hero-text">
+          Our expertly curated vegetable baskets are made with the freshest,
+          highest quality vegetables available. Fresh Harvest Box has got you
+          covered. Fresh, high-quality vegetables in expertly curated vegetable
+          baskets delivered to you.
+        </p>
 
-      <button type="button" class="hero-button">shop now</button>
+        <button type="button" class="hero-button">shop now</button>
+      </div>
+
+      <div class="hero-img-wrap">
+        <picture class="hero-image">
+          <source
+            srcset="
+              ./img/hero/orange-girl-desktop@1x.png 1x,
+              ./img/hero/orange-girl-desktop@2x.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+
+          <source
+            srcset="
+              ./img/hero/orange-girl-tablet@1x.png 1x,
+              ./img/hero/orange-girl-tablet@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/hero/orange-girl-mobile@1x.png 1x,
+              ./img/hero/orange-girl-mobile@2x.png 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="hero-image"
+            src="./img/hero/orange-girl-desktop@1x.png"
+            alt="Girl with salad leaves"
+            width="515"
+          />
+        </picture>
+      </div>
     </div>
 
-    <div>
-      <picture class="hero-image">
-        <source
-          srcset="
-            ./img/hero/orange-girl-desktop@1x.png 1x,
-            ./img/hero/orange-girl-desktop@2x.png 2x
-          "
-          media="(min-width: 1280px)"
-        />
-
-        <source
-          srcset="
-            ./img/hero/orange-girl-tablet@1x.png 1x,
-            ./img/hero/orange-girl-tablet@2x.png 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./img/hero/orange-girl-mobile@1x.png 1x,
-            ./img/hero/orange-girl-mobile@2x.png 2x
-          "
-          media="(min-width: 320px)"
-        />
-        <img
-          class="hero-image"
-          src="./img/hero/orange-girl-desktop@1x.png"
-          alt="Girl with salad leaves"
-          width="515"
-        />
-      </picture>
-
-      <ul class="hero-tag-list">
-        <li class="hero-tag-item">
-          <button type="button" class="hero-tag-button">&#35;organic</button>
-        </li>
-        <li class="hero-tag-item">
-          <button type="button" class="hero-tag-button">&#35;products</button>
-        </li>
-        <li class="hero-tag-item">
-          <button type="button" class="hero-tag-button">&#35;basket</button>
-        </li>
-        <li class="hero-tag-item">
-          <button type="button" class="hero-tag-button">&#35;vegetables</button>
-        </li>
-      </ul>
-    </div>
+    <ul class="hero-tag-list">
+      <li class="hero-tag-item">
+        <button type="button" class="hero-tag-button">&#35;organic</button>
+      </li>
+      <li class="hero-tag-item">
+        <button type="button" class="hero-tag-button">&#35;products</button>
+      </li>
+      <li class="hero-tag-item">
+        <button type="button" class="hero-tag-button">&#35;basket</button>
+      </li>
+      <li class="hero-tag-item">
+        <button type="button" class="hero-tag-button">&#35;vegetables</button>
+      </li>
+    </ul>
   </div>
 </section>
