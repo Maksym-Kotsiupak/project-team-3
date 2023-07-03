@@ -1,10 +1,10 @@
 .header {
-    background: #FFF;
+    background: var(--secondary-txt-cl);
   }
   
   .header-container {
     width: 100%;
-    max-width: 335px;
+    max-width: 375px;
     max-height: 50px;
     padding-left: 20px;
     padding-right: 20px;
@@ -35,18 +35,17 @@
   
   .header-logo-text {
     font-family: 'DM Sans Bold';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
     line-height: 1.29;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    color: var(--primary-txt-cl);
-  }
+    }
   
   .btn {
     border: none;
     background-color: transparent;
+    display: flex;
   }
   
   /*TODO Mob media*/
@@ -63,32 +62,54 @@
     justify-content: space-between;
   }
 
-  .ggmenu-btn {
+  /*TODO Burger*/
+  .burger-btn {
     fill: var(--logo-bg-cl);
+    }
+
+  .menu-close-btn-icon {
+   stroke: var(--logo-bg-cl);
+   }
+
+  .mob-menu-nav {
+    background: var(--primary-bg-cl);
   }
- 
-  
+
+  .mob-menu-link {
+    font-family: 'DM Sans';
+    color: var(--secondary-txt-cl);
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
   }
+
+  .shopp-mob-btn {
+   stroke: var(--secondary-txt-cl);
+    fill: var(--primary-bg-cl);
+  }
+   
+
+
+}
   
   
   
   /*TODO Tablet media*/
   @media screen and (min-width: 768px) {
     .header-container {
-     max-width: 704px;
+     max-width: 768px;
      padding-left: 32px;
      padding-right: 32px;
     }
 
     .header-link {
      font-family: 'DM Sans';
-     color: var(--primary-txt-cl);
      font-size: 14px;
      line-height: 1.29;
      letter-spacing: -0.04em;
     }
   
-   .ggmenu-btn {
+   .burger-btn {
     display: none;
    }
   
@@ -106,14 +127,13 @@
   
   .shopp-btn {
     margin-left: auto;
+    stroke: var(--primary-txt-cl);
+    fill: var(--secondary-txt-cl);
   }
 
-  .shopp-btn {
-    stroke: #141414;
-    fill: #FFF;
-  }
+  
    
-  }
+}
   
   
   
@@ -122,7 +142,7 @@
   /*TODO Desktop media*/
   @media screen and (min-width: 1280px) {
     .header-container {
-      max-width: 1216px;
+      max-width: 1280px;
     }
   
     .header-list {
