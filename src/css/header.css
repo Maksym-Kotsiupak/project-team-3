@@ -40,8 +40,7 @@
     line-height: 1.29;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    color: var(--primary-txt-cl);
-  }
+    }
   
   .btn {
     border: none;
@@ -105,7 +104,6 @@
 
     .header-link {
      font-family: 'DM Sans';
-     color: var(--primary-txt-cl);
      font-size: 14px;
      line-height: 1.29;
      letter-spacing: -0.04em;
