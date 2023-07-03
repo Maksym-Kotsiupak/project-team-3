@@ -55,6 +55,15 @@
 .vegetables-card-item {
 }
 
+.vegetables-card-link {
+  transition: transform var(--transition);
+}
+
+.vegetables-card-link:hover .vegetables-card-wrap,
+.vegetables-card-link:focus .vegetables-card-wrap {
+  transform: scale(0.95);
+}
+
 @media screen and (max-width: 1279px) {
   .vegetables-card-item-radish {
     display: none;
@@ -92,9 +101,6 @@
 }
 
 .vegetables-card-img img {
-  padding: 0;
-  margin: 0;
-  line-height: 0;
 }
 
 .vegetables-card-price {
@@ -208,7 +214,7 @@
   }
 
   .vegetables-container {
-    max-width: 1246px;
+    max-width: 1280px;
   }
 
   .vegetables-title {
