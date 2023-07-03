@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veggieboost</title>
     
-    <link rel="stylesheet" href="/project-team-3/assets/index-bade9a2d.css">
+    <link rel="stylesheet" href="/project-team-3/assets/index-f5e37075.css">
   </head>
   <body>
     <!-- header by Вікторія Коробенко -->
@@ -659,7 +659,7 @@
             <h2 class="modal-order-title">YOUR ORDER</h2>
             <button type="button" class="modal-order-close button" data-modal-close>
                 <svg class="modal-order-close-icon" width="24" height="24">
-                    <use href="../img/icons.svg#x"></use>
+                    <use href="./img/icons.svg#x"></use>
                 </svg>
             </button>
         </div>
@@ -670,8 +670,8 @@
                     <p class="modal-order-item-text">Plant</p>
                     <img 
                     class="modal-order-item-img"
-                    srcset="../img/your_order/order1cabbage@1x.png 1x, ../img/your_order/order1cabbage@2x.png 2x"
-                    src="../img/your_order/order1cabbage@1x.png"
+                    srcset="./img/your_order/order1cabbage@1x.png 1x, ./img/your_order/order1cabbage@2x.png 2x"
+                    src="./img/your_order/order1cabbage@1x.png"
                     alt="Cabbage Basket"
                     width="94"/>
                     <div class="order-checkbox">
@@ -689,7 +689,7 @@
                                     height="16"
                                 >
                                     <use
-                                        href="../img/icons.svg#checked"
+                                        href="./img/icons.svg#checked"
                                     ></use>
                                 </svg>
                             </div>
@@ -703,8 +703,8 @@
                     <p class="modal-order-item-text">Plant</p>
                     <img 
                     class="modal-order-item-img"
-                    srcset="../img/your_order/order2tomato@1x.png 1x, ../img/your_order/order2tomato@2x.png 2x"
-                    src="../img/your_order/order2tomato@1x.png"
+                    srcset="./img/your_order/order2tomato@1x.png 1x, ./img/your_order/order2tomato@2x.png 2x"
+                    src="./img/your_order/order2tomato@1x.png"
                     alt="Tomato Basket"
                     width="94"/>
                     <div class="order-checkbox">
@@ -722,7 +722,7 @@
                                     height="16"
                                 >
                                     <use
-                                        href="../img/icons.svg#checked"
+                                        href="./img/icons.svg#checked"
                                     ></use>
                                 </svg>
                             </div>
@@ -736,8 +736,8 @@
                     <p class="modal-order-item-text">Plant</p>
                     <img 
                     class="modal-order-item-img"
-                    srcset="../img/your_order/order3vegetables@1x.png 1x, ../img/your_order/order3vegetables@2x.png 2x"
-                    src="../img/your_order/order3vegetables@1x.png"
+                    srcset="./img/your_order/order3vegetables@1x.png 1x, ./img/your_order/order3vegetables@2x.png 2x"
+                    src="./img/your_order/order3vegetables@1x.png"
                     alt="Vegetables Basket"
                     width="94"/>
                     <div class="order-checkbox">
@@ -755,7 +755,7 @@
                                     height="16"
                                 >
                                     <use
-                                        href="../img/icons.svg#checked"
+                                        href="./img/icons.svg#checked"
                                     ></use>
                                 </svg>
                             </div>
@@ -764,21 +764,29 @@
                 </form>
             </li>
         </ul>
-        <form class="modal-order-form">
-            <label for="user-name" class="modal-order-form-label">
-                <input id="user-name" name="user-name" class="modal-order-form-input" type="text" placeholder="Enter full name..." />
-            </label>
-            <label for="user-email" class="modal-order-form-label">
-                <input id="user-email" name="user-email" class="modal-order-form-input" type="email" placeholder="Enter email..." />
-            </label>
-            <label for="user-card" class="modal-order-form-label">
-                <input id="user-card" name="user-card" class="modal-order-form-input" type="text" placeholder="Enter card..." />
-            </label>
-            <label for="user-comments" class="modal-order-form-label">
-                <textarea id="user-comments" name="user-comments" class="modal-order-form-textarea" placeholder="Enter comments..."></textarea>
-            </label>
-        </form>
-        <button class="modal-order-sibmit-button" type="submit">Submit</button>
+        <div class="modal-order-form-wrap">
+            <form class="modal-order-form">
+                <label for="user-name" class="modal-order-form-label">
+                    <input id="user-name" name="user-name" class="modal-order-form-input" type="text" placeholder="Enter full name..." pattern="[A-Za-z]" required/>
+                </label>
+                <label for="user-email" class="modal-order-form-label">
+                    <input id="user-email" name="user-email" class="modal-order-form-input" type="email" placeholder="Enter email..." pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required/>
+                </label>
+                <label for="user-card" class="modal-order-form-label">
+                    <input id="user-card" name="user-card" class="modal-order-form-input" type="text" placeholder="Enter card..." pattern="[0-9]{16,}" title="Card number must not be 16 digits" required/>
+                </label>
+                <label for="user-comments" class="modal-order-form-label">
+                    <textarea id="user-comments" name="user-comments" class="modal-order-form-textarea" placeholder="Enter comments..."></textarea>
+                </label>
+            </form>
+            <button class="modal-order-sibmit-button" type="submit">Submit</button>
+            <img 
+                class="modal-order-form-img"
+                srcset="./img/your_order/order-orange-girl@1x.png 1x, ./img/your_order/order-orange-girl@2x.png 2x"
+                src="./img/your_order/order-orange-girl@1x.png"
+                alt="Order girl"
+                width="444"/>
+        </div>
     </div>
 </div> -->
 
