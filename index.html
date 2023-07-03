@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veggieboost</title>
     
-    <link rel="stylesheet" href="/project-team-3/assets/index-f5e37075.css">
+    <link rel="stylesheet" href="/project-team-3/assets/index-913891dc.css">
   </head>
   <body>
     <!-- header by Вікторія Коробенко -->
@@ -564,15 +564,36 @@
     </div>
 
     <div class="img-container">
-      <img
+      <picture>
+        <source
+          srcset="
+            ../img/we_will_call_you/green-girl-mobile@1x.png 1x,
+            ../img/we_will_call_you/green-girl-mobile@2x.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ../img/we_will_call_you/green-girl-tablet@1x.png 1x,
+            ../img/we_will_call_you/green-girl-tablet@2x.png 2x
+          "
+          media="(max-width: 1279px)"
+        />
+
+        <source
         srcset="
-          ../img/we_will_call_you/green-girl-mobile@1x.png 1x,
-          ../img/we_will_call_you/green-girl-mobile@2x.png 2x
+          ../img/we_will_call_you/green-girl-desktop@1x.png 1x,
+          ../img/we_will_call_you/green-girl-desktop@2x.png 2x
         "
-        class="call-you-img"
-        src="../img/we_will_call_you/green-girl-mobile@1x.png"
-        alt="girl with broccoli"
+        media="(min-width: 1280px)"
       />
+
+        <img
+          class="call-you-img"
+          src="../img/we_will_call_you/green-girl-mobile@1x.png"
+          alt="girl with broccoli"
+        />
+      </picture>
     </div>
   </div>
 </section>
