@@ -1,9 +1,39 @@
 <section class="hiw">
   <div class="hiw-main">
-    <h2 class="hiw-main-title">
-      To order your vegetable basket, simply follow these easy steps
-    </h2>
-    <img src="" alt="cabbage" class="hiw-main-img" />
+    <div class="hiw-main-item">
+      <h2 class="hiw-main-title">
+        To order your vegetable basket, simply follow these easy steps
+      </h2>
+      <picture>
+        <source
+          srcset="
+            ./img/how-it-works/broccoli-desktop@1x.png 1x,
+            ./img/how-it-works/broccoli-desktop@2x.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+
+        <source
+          srcset="
+            ./img/how-it-works/broccoli-tablet@1x.png 1x,
+            ./img/how-it-works/broccoli-tablet@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/how-it-works/broccoli-mobile@1x.png 1x,
+            ./img/how-it-works/broccoli-mobile@2x.png 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="./img/how-it-works/broccoli-desktop@1x.png"
+          alt="broccoli"
+          class="hiw-main-img"
+        />
+      </picture>
+    </div>
   </div>
   <div class="hiw-main-text">
     <p class="hiw-text">
@@ -18,17 +48,49 @@
   </div>
 
   <div class="hiw-second">
-    <h2 class="hiw-second-title">3 Easy Steps for Buying Fresh Vegetables</h2>
-    <ol class="hiw-list">
-      <li class="hiw-list-item">
-        Just choose the vegetable you want to order by clicking on the
-        checkboxes next to it.
-      </li>
-      <li class="hiw-list-item">Click on the basket and fill out the form.</li>
-      <li class="hiw-list-item">
-        Sit back and relax! Your fresh vegetables basket will be delivered.
-      </li>
-    </ol>
-    <img src="" alt="little girl with cabbage" class="hiw-second-img" />
+    <div class="hiw-second-item">
+      <h2 class="hiw-second-title">3 Easy Steps for Buying Fresh Vegetables</h2>
+      <ol class="hiw-list">
+        <li class="hiw-list-item">
+          Just choose the vegetable you want to order by clicking on the
+          checkboxes next to it.
+        </li>
+        <li class="hiw-list-item">
+          Click on the basket and fill out the form.
+        </li>
+        <li class="hiw-list-item">
+          Sit back and relax! Your fresh vegetables basket will be delivered.
+        </li>
+      </ol>
+    </div>
+    <picture>
+      <source
+        srcset="
+          ./img/how-it-works/little-girl-desktop@1x.png 1x,
+          ./img/how-it-works/little-girl-desktop@2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+
+      <source
+        srcset="
+          ./img/how-it-works/little-girl-tablet@1x.png 1x,
+          ./img/how-it-works/little-girl-tablet@2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/how-it-works/little-girl-mobile@1x.png 1x,
+          ./img/how-it-works/little-girl-mobile@2x.png 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img
+        src="./img/how-it-works/little-girl-desktop@1x.png"
+        alt="broccoli"
+        class="hiw-second-img"
+      />
+    </picture>
   </div>
 </section>
