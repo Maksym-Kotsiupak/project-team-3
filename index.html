@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veggieboost</title>
     
-    <link rel="stylesheet" href="/project-team-3/assets/index-114b1229.css">
+    <link rel="stylesheet" href="/project-team-3/assets/index-922a1a64.css">
   </head>
   <body>
     <!-- header by Вікторія Коробенко -->
@@ -31,30 +31,30 @@
           <span class="header-logo-text">veggieboost</span>
         </a>       
       </nav>
-      <button type="button" class="ggmenu-btn btn">
-        <svg class="ggmenu-svg" width="24" height="24">
+      <button type="button" class="burger-btn btn" js-open-menu>
+        <svg class="burger-svg" width="24" height="24">
           <use href="/project-team-3/assets/icons-f26b3f14.svg#burger"></use>
         </svg>
       </button>
-      <button type="button" class="shopp-btn btn">
+      <button type="button" class="shopp-btn btn" data-modal-open>
         <svg class="shopp-svg" width="24" height="24">
           <use href="/project-team-3/assets/icons-f26b3f14.svg#shopping-cart"></use>
         </svg>
       </button>    
     </div>
-    <!-- <div class="mob-menu is-hidden">    
+    <div class="mob-menu is-hidden" js-menu-container>    
       <div class="mob-logo-btn">
         <nav class="mob-header-nav">
             <a href="./index.html" class="header-logo-svg link">
                 <svg class="logo-svg" width="16" height="16">
-                  <use href=""></use>
+                  <use href="/project-team-3/assets/icons-f26b3f14.svg#logo"></use>
                 </svg>
                 <span class="header-logo-text">veggieboost</span>
             </a>       
         </nav>
-        <button type="button" class="mob-close-btn btn">
+        <button type="button" class="mob-close-btn btn" js-close-menu>
           <svg class="menu-close-btn-icon" width="24" height="24">
-            <use href=""></use>
+            <use href="/project-team-3/assets/icons-f26b3f14.svg#x"></use>
           </svg>
         </button>
       </div>      
@@ -71,14 +71,14 @@
                   <a class="mob-menu-link link" href="#contacts">Contacts</a>
                 </li>          
               </ul>
-              <button type="button" class="shopp-btn btn">
-                <svg class="shopp-svg" width="20" height="20">
-                  <use href=""></use>
+              <button type="button" class="shopp-mob-btn btn">
+                <svg class="shopp-mob-svg" width="20" height="20">
+                  <use href="/project-team-3/assets/icons-f26b3f14.svg#shopping-cart"></use>
                 </svg>
               </button>        
             </nav>
        </div>    
-    </div> -->
+    </div>
   </header>
 
 
@@ -476,7 +476,52 @@
 </section>
 
     <!-- We will call you by Jenya Ostashevskiy -->
-    
+    <section class="call-you-section">
+  <div class="call-you-content">
+    <div class="title-container">
+      <h2 class="call-you-title">Fresh Harvest Box has got you covered</h2>
+      <p class="call-you-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+      <form action="" class="call-you-form">
+        <label for="" class="call-you-label">
+          <div class="input-container">
+            <input
+              type="tel"
+              name="call-you-input"
+              class="call-you-input"
+              id="call-you-input"
+              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              placeholder="+380()"
+            />
+            <input
+              name="commit"
+              type="submit"
+              class="call-you-btn"
+              value="Recall"
+            />
+          </div>
+        </label>
+        <!-- <button type="submit" class="call-you-btn">Recall</button> -->
+      </form>
+    </div>
+
+    <div class="img-container">
+      <img
+        srcset="
+          ../img/we_will_call_you/green-girl-mobile@1x.png 1x,
+          ../img/we_will_call_you/green-girl-mobile@2x.png 2x
+        "
+        class="call-you-img"
+        src="../img/we_will_call_you/green-girl-mobile@1x.png"
+        alt="girl with broccoli"
+      />
+    </div>
+  </div>
+</section>
+
     <!-- Footer by Александр Шевляков -->
     
     <!-- Модальне вікно Your order by Andrey-->
@@ -607,8 +652,8 @@
         </form>
         <button class="modal-order-sibmit-button" type="submit">Submit</button>
     </div>
-</div>
- -->
+</div> -->
+
 
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
