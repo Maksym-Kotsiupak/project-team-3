@@ -8,8 +8,7 @@
   max-height: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;    
 }
@@ -80,8 +79,8 @@
     display: flex;
     flex-direction: column;
     background: var(--primary-bg-cl); 
-    transition: opacity var(--tra-dur-and-func),
-    visibility var(--tra-dur-and-func);  
+    transition: opacity var(--transition),
+    visibility var(--transition);  
   }
 
   .is-hidden {
@@ -96,13 +95,19 @@
     pointer-events: auto;
   }
 
+  .mob-header {
+    width: 100%;
+    background: var(--secondary-txt-cl);
+  }
+
   .mob-logo-btn {
+    max-width: 375px;
+    margin: 0 auto;
     display: flex;
     padding-left: 20px;
-    padding-right: 13px;
+    padding-right: 20px;
     height: 50px;
     align-items: center;
-    background: var(--secondary-txt-cl);
   }
 
   .mob-close-btn {
@@ -142,6 +147,7 @@
     
 /*TODO Tablet media*/
 @media screen and (min-width: 768px) {
+
   .header-container {
     max-width: 768px;
     padding-left: 32px;
