@@ -1,4 +1,14 @@
+1
 
+2
+
+3
+
+4
+
+5
+
+6
 
 /*! modern-normalize v2.0.0 | MIT License | 
 https://github.com/sindresorhus/modern-normalize */
@@ -14,7 +24,6 @@ Use a better box model (opinionated).
 ::after {
     box-sizing: border-box;
 }
-
 html {
     /* Improve consistency of default fonts in all browsers. 
 (https://github.com/sindresorhus/modern-normalize/issues/3) */
@@ -36,7 +45,6 @@ html {
     tab-size: 4;
     /* 3 */
 }
-
 /*
 Sections
 ========
@@ -45,7 +53,6 @@ body {
     margin: 0;
     /* Remove the margin in all browsers. */
 }
-
 /*
 Grouping content
 ================
@@ -61,7 +68,6 @@ hr {
     color: inherit;
     /* 2 */
 }
-
 /*
 Text-level semantics
 ====================
@@ -72,7 +78,6 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 abbr[title] {
     text-decoration: underline dotted;
 }
-
 /**
 Add the correct font weight in Edge and Safari.
 */
@@ -80,7 +85,6 @@ b,
 strong {
     font-weight: bolder;
 }
-
 /**
 1. Improve consistency of default fonts in all browsers. 
 (https://github.com/sindresorhus/modern-normalize/issues/3)
@@ -101,14 +105,12 @@ pre {
     font-size: 1em;
     /* 2 */
 }
-
 /**
 Add the correct font size in all browsers.
 */
 small {
     font-size: 80%;
 }
-
 /**
 Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
 */
@@ -119,15 +121,12 @@ sup {
     position: relative;
     vertical-align: baseline;
 }
-
 sub {
     bottom: -0.25em;
 }
-
 sup {
     top: -0.5em;
 }
-
 /*
 Tabular data
 ============
@@ -146,7 +145,6 @@ table {
     border-color: inherit;
     /* 2 */
 }
-
 /*
 Forms
 =====
@@ -169,7 +167,6 @@ textarea {
     margin: 0;
     /* 2 */
 }
-
 /**
 Remove the inheritance of text transform in Edge and Firefox.
 */
@@ -177,7 +174,6 @@ button,
 select {
     text-transform: none;
 }
-
 /**
 Correct the inability to style clickable types in iOS and Safari.
 */
@@ -187,7 +183,6 @@ button,
 [type='submit'] {
     -webkit-appearance: button;
 }
-
 /**
 Remove the inner border and padding in Firefox.
 */
@@ -195,14 +190,12 @@ Remove the inner border and padding in Firefox.
     border-style: none;
     padding: 0;
 }
-
 /**
 Restore the focus styles unset by the previous rule.
 */
 :-moz-focusring {
     outline: 1px dotted ButtonText;
 }
-
 /**
 Remove the additional ':invalid' styles in Firefox.
 See: 
@@ -212,7 +205,6 @@ https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d
 :-moz-ui-invalid {
     box-shadow: none;
 }
-
 /**
 Remove the padding so developers are not caught out when they zero out 
 'fieldset' elements in all browsers.
@@ -220,14 +212,12 @@ Remove the padding so developers are not caught out when they zero out
 legend {
     padding: 0;
 }
-
 /**
 Add the correct vertical alignment in Chrome and Firefox.
 */
 progress {
     vertical-align: baseline;
 }
-
 /**
 Correct the cursor style of increment and decrement buttons in Safari.
 */
@@ -235,7 +225,6 @@ Correct the cursor style of increment and decrement buttons in Safari.
 ::-webkit-outer-spin-button {
     height: auto;
 }
-
 /**
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
@@ -246,14 +235,12 @@ Correct the cursor style of increment and decrement buttons in Safari.
     outline-offset: -2px;
     /* 2 */
 }
-
 /**
 Remove the inner padding in Chrome and Safari on macOS.
 */
 ::-webkit-search-decoration {
     -webkit-appearance: none;
 }
-
 /**
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to 'inherit' in Safari.
@@ -264,7 +251,6 @@ Remove the inner padding in Chrome and Safari on macOS.
     font: inherit;
     /* 2 */
 }
-
 /*
 Interactive
 ===========
