@@ -202,9 +202,6 @@
 @media screen and (min-width: 1280px) {
     .hiw {
         width: 1216px;
-    }
-
-    .hiw-main-item {
         margin-top: 124px;
     }
 
@@ -233,7 +230,7 @@
         height: 460px;
         border-radius: 80px;
         padding-top: 80px;
-        margin-bottom: 124px;
+        padding-bottom: 124px;
         background-image: url(../img/how-it-works/bg-dot-desktop@1x.png);
         display: flex;
         flex-direction: row-reverse;

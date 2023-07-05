@@ -1,5 +1,5 @@
 .call-you-section{
-    margin-bottom: 120px; 
+    padding-bottom: 120px; 
 
 }
 .call-you-content {
@@ -115,7 +115,7 @@ background-color: #A1C487;
 
 @media screen and (min-width: 375px) {
     .call-you-section{
-        margin-bottom: 120px; 
+        padding-bottom: 120px; 
     }
   .call-you-content {
     width: 375px;
@@ -147,7 +147,7 @@ background-color: #A1C487;
 }
 @media screen and (min-width: 768px) {
     .call-you-section{
-    margin-bottom: 173px;
+    padding-bottom: 173px;
     }
     .img-container {
       background: #faf3e7;
@@ -253,12 +253,11 @@ background-color: #A1C487;
 }
 @media screen and (min-width: 1280px) {
     .call-you-section{
-    margin-bottom: 124px;
+    padding-bottom: 124px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     }
     .img-container {
       background: #faf3e7;
