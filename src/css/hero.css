@@ -134,7 +134,7 @@
   right: 50%;
   transform: translateX(50%);
   width: 320px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .hero-tag-button {
