@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.hiw-main {}
+/* .hiw-main {} */
 
 .hiw-main-title {
     color: var(--primary-txt-cl);
@@ -48,6 +48,9 @@
     padding: 40px 20px;
     margin-bottom: 80px;
     background-image: url(../img/how-it-works/bg-dot-mobile@1x.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 }
 
 @media (min-device-pixel-ratio: 2),
