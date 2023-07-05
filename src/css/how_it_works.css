@@ -46,7 +46,6 @@
     border-radius: 40px;
     background-color: var(--secondary-bg-cl);
     padding: 40px 20px;
-    margin-bottom: 80px;
     background-image: url(../img/how-it-works/bg-dot-mobile@1x.png);
     background-repeat: no-repeat;
         background-size: cover;
@@ -70,7 +69,7 @@
     line-height: 1.17;
     letter-spacing: -0.96px;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .hiw-list {
@@ -168,7 +167,6 @@
         border-radius: 80px;
         padding: 0;
         padding-top: 80px;
-        margin-bottom: 100px;
         background-image: url(../img/how-it-works/bg-dot-tablet@1x.png);
         display: flex;
         flex-direction: row-reverse;
