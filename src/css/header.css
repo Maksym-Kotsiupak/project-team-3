@@ -200,3 +200,15 @@
     margin-right: 308px;
   } 
 }
+
+
+
+
+
+
+
+.header-link:hover,
+.header-link:focus{
+  color: var(--primary-bg-cl);
+  transition: var(--transition);
+}
