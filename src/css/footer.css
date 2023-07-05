@@ -231,3 +231,20 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s, fill 250ms cubic-bezie
     margin: 0;
     padding-top: 5px;
 }
+
+
+
+
+.footer-adress:hover,
+.footer-adress:focus{
+    color: var(--primary-bg-cl);
+    transition: var(--transition);
+}
+
+
+
+.footer-soc-soc:hover,
+.footer-soc-soc:focus {
+    fill: var(--primary-bg-cl);
+    transition: var(--transition);
+}

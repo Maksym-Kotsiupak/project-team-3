@@ -78,3 +78,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body data-modal-open,
+body data-modal-open-third ,
+body data-modal-open-four{
+  overflow: hidden;
+}
+
+
