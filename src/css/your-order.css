@@ -156,7 +156,11 @@
     transition: fill var(--transition);
 }
 
-.modal-order-checkbox:checked + .modal-label-checkbox div {
+
+
+
+
+.modal-order-checkbox:checked + .modal-label-checkbox span {
     fill: var(--primary-bg-cl);
 }
 
