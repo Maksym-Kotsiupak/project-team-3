@@ -134,6 +134,7 @@
   right: 50%;
   transform: translateX(50%);
   width: 320px;
+  z-index: 1;
 }
 
 .hero-tag-button {
@@ -163,6 +164,8 @@
   gap: 4px;
   max-width: 172px;
   margin-left: auto;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-tag-button:hover,
@@ -252,7 +255,6 @@
 
   .hero-image {
     width: 540px;
-    z-index: 1;
   }
 
   .hero-tag-button {
@@ -267,8 +269,6 @@
   .hero-tag-list {
     gap: 8px 4px;
     max-width: 218px;
-    position: relative;
-    z-index: 2;
   }
 }
 
