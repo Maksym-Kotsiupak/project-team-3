@@ -58,7 +58,7 @@
 
 .modal-order-title {
     color: var(--primary-txt-cl);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    /* text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); */
     font-size: 28px;
     font-family: DM Sans, sans-serif;
     font-style: normal;

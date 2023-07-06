@@ -7,7 +7,7 @@
 
 .hiw-main-title {
     color: var(--primary-txt-cl);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    /* text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); */
     font-family: 'DM Sans', sans-serif;
     font-size: 28px;
     font-weight: 500;
@@ -30,7 +30,7 @@
     row-gap: 20px;
     margin-bottom: 80px;
     font-size: 14px;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    /* text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); */
     font-family: DM Sans;
     line-height: 1.3;
     letter-spacing: -0.56px;
@@ -62,7 +62,7 @@
 
 .hiw-second-title {
     color: var(--primary-txt-cl);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    /* text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); */
     font-family: 'DM Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -81,7 +81,7 @@
 
 .hiw-list-item {
     color: var(--primary-txt-cl);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    /* text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); */
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     line-height: 1.3;
