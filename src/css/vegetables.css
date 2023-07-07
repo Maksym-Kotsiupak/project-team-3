@@ -85,6 +85,15 @@
   letter-spacing: -0.28px;
 }
 
+.vegetables-card-picture {
+  transition: transform var(--transition);
+}
+
+.vegetables-card-link:hover .vegetables-card-picture,
+.vegetables-card-link:focus .vegetables-card-picture {
+  transform: scale(1.15);
+}
+
 .vegetables-card-img {
   display: block;
   margin-right: auto;
