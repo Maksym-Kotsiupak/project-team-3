@@ -91,6 +91,7 @@
                   ./img/vegetables/brussel.png    1x,
                   ./img/vegetables/brussel-2x.png 2x
                 "
+                type="image/png"
                 media="(min-width: 768px)"
               />
               <source
@@ -98,6 +99,7 @@
                   ./img/vegetables/brussel-mob.png    1x,
                   ./img/vegetables/brussel-mob-2x.png 2x
                 "
+                type="image/png"
                 media="(max-width: 767px)"
               />
               <img
@@ -143,6 +145,7 @@
                   ./img/vegetables/tomato.png    1x,
                   ./img/vegetables/tomato-2x.png 2x
                 "
+                type="image/png"
                 media="(min-width: 768px)"
               />
               <source
@@ -150,6 +153,7 @@
                   ./img/vegetables/tomato-mob.png    1x,
                   ./img/vegetables/tomato-mob-2x.png 2x
                 "
+                type="image/png"
                 media="(max-width: 767px)"
               />
               <img
@@ -195,6 +199,7 @@
                   ./img/vegetables/eggplant.png    1x,
                   ./img/vegetables/eggplant-2x.png 2x
                 "
+                type="image/png"
                 media="(min-width: 768px)"
               />
               <source
@@ -202,6 +207,7 @@
                   ./img/vegetables/eggplant-mob.png    1x,
                   ./img/vegetables/eggplant-mob-2x.png 2x
                 "
+                type="image/png"
                 media="(max-width: 767px)"
               />
               <img
@@ -247,6 +253,7 @@
                   ./img/vegetables/potatoes.png    1x,
                   ./img/vegetables/potatoes-2x.png 2x
                 "
+                type="image/png"
                 media="(min-width: 768px)"
               />
               <source
@@ -254,6 +261,7 @@
                   ./img/vegetables/potatoes-mob.png    1x,
                   ./img/vegetables/potatoes-mob-2x.png 2x
                 "
+                type="image/png"
                 media="(max-width: 767px)"
               />
               <img
@@ -299,6 +307,7 @@
                   ./img/vegetables/leek.png    1x,
                   ./img/vegetables/leek-2x.png 2x
                 "
+                type="image/png"
                 media="(min-width: 768px)"
               />
               <source
@@ -306,6 +315,7 @@
                   ./img/vegetables/leek-mob.png    1x,
                   ./img/vegetables/leek-mob-2x.png 2x
                 "
+                type="image/png"
                 media="(max-width: 767px)"
               />
               <img
@@ -351,6 +361,7 @@
                   ./img/vegetables/mushrooms.png    1x,
                   ./img/vegetables/mushrooms-2x.png 2x
                 "
+                type="image/png"
                 media="(min-width: 768px)"
               />
               <source
@@ -358,6 +369,7 @@
                   ./img/vegetables/mushrooms-mob.png    1x,
                   ./img/vegetables/mushrooms-mob-2x.png 2x
                 "
+                type="image/png"
                 media="(max-width: 767px)"
               />
               <img
@@ -403,6 +415,7 @@
                   ./img/vegetables/corn.png    1x,
                   ./img/vegetables/corn-2x.png 2x
                 "
+                type="image/png"
                 media="(min-width: 768px)"
               />
               <source
@@ -410,6 +423,7 @@
                   ./img/vegetables/corn-mob.png    1x,
                   ./img/vegetables/corn-mob-2x.png 2x
                 "
+                type="image/png"
                 media="(max-width: 767px)"
               />
               <img
@@ -432,17 +446,34 @@
               <h3 class="vegetables-card-title">Radish</h3>
               <p class="vegetables-card-desc">Plant</p>
             </div>
-            <img
-              class="vegetables-card-img"
-              srcset="
-                ./img/vegetables/radish.png    1x,
-                ./img/vegetables/radish-2x.png 2x
-              "
-              src="./img/vegetables/radish.png"
-              alt="Radish"
-              width="321"
-              height="261"
-            />
+
+            <picture class="vegetables-card-picture">
+              <source
+                srcset="
+                  ./img/vegetables/webp/radish.webp    1x,
+                  ./img/vegetables/webp/radish-2x.webp 2x
+                "
+                type="image/webp"
+                media="(min-width: 1280px)"
+              />
+
+              <source
+                srcset="
+                  ./img/vegetables/radish.png    1x,
+                  ./img/vegetables/radish-2x.png 2x
+                "
+                type="image/png"
+                media="(min-width: 1280px)"
+              />
+              <img
+                class="vegetables-card-img"
+                src="./img/vegetables/radish.png"
+                alt="Radish"
+                width="321"
+                height="261"
+              />
+            </picture>
+
             <p class="vegetables-card-price">90 UAH / kg</p>
           </div>
         </a>

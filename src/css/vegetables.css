@@ -91,7 +91,7 @@
 
 .vegetables-card-link:hover .vegetables-card-picture,
 .vegetables-card-link:focus .vegetables-card-picture {
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .vegetables-card-img {
